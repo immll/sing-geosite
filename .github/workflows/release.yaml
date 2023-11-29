@@ -20,6 +20,11 @@ jobs:
         id: build
         run: |
           go run -v .
+      - name: Release rule sets
+        if: steps.build.outputs.skip != 'true'
+        run: .github/release-rule-set.sh
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Generate sha256 hash
         if: steps.build.outputs.skip != 'true'
         run: |
