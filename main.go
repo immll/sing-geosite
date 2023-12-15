@@ -14,6 +14,7 @@ import (
 	"github.com/sagernet/sing-box/common/geosite"
 	"github.com/sagernet/sing/common"
 	E "github.com/sagernet/sing/common/exceptions"
+	"github.com/sethvargo/go-githubactions"
 	"github.com/sirupsen/logrus"
 	"github.com/v2fly/v2ray-core/v5/app/router/routercommon"
 	"google.golang.org/protobuf/proto"
@@ -185,7 +186,7 @@ func generate(release *github.RepositoryRelease, output string) error {
 }
 
 func setActionOutput(name string, content string) {
-	os.Stdout.WriteString("::set-output name=" + name + "::" + content + "\n")
+	githubactions.SetOutput(name, content)
 }
 
 func release(source string, destination string, output string) error {

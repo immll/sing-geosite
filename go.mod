@@ -1,11 +1,12 @@
 module sing-geosite
 
-go 1.18
+go 1.20
 
 require (
 	github.com/google/go-github/v45 v45.2.0
 	github.com/sagernet/sing v0.2.17
 	github.com/sagernet/sing-box v1.6.2
+	github.com/sethvargo/go-githubactions v1.1.0
 	github.com/sirupsen/logrus v1.9.3
 	github.com/v2fly/v2ray-core/v5 v5.11.0
 	google.golang.org/protobuf v1.31.0
@@ -17,6 +18,7 @@ require (
 	github.com/google/go-querystring v1.1.0 // indirect
 	github.com/miekg/dns v1.1.56 // indirect
 	github.com/sagernet/sing-dns v0.1.10 // indirect
+	github.com/sethvargo/go-envconfig v0.8.0 // indirect
 	golang.org/x/crypto v0.14.0 // indirect
 	golang.org/x/mod v0.13.0 // indirect
 	golang.org/x/net v0.17.0 // indirect
