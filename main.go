@@ -64,10 +64,10 @@ func download(release *github.RepositoryRelease) ([]byte, error) {
 		return *it.Name == "geosite.dat.sha256sum"
 	})
 	if geositeAsset == nil {
-		return nil, E.New("geosite asset not found in upstream release ", release.Name)
+		return nil, E.New("geosite asset not found in upstream release ", release.TagName)
 	}
 	if geositeChecksumAsset == nil {
-		return nil, E.New("geosite asset not found in upstream release ", release.Name)
+		return nil, E.New("geosite asset not found in upstream release ", release.TagName)
 	}
 	data, err := get(geositeAsset.BrowserDownloadURL)
 	if err != nil {
@@ -237,7 +237,7 @@ func release(source string, destination string, output string, ruleSetOutput str
 	if err != nil {
 		log.Warn("missing destination latest release")
 	} else {
-		if os.Getenv("NO_SKIP") != "true" && strings.Contains(*destinationRelease.Name, *sourceRelease.Name) {
+		if os.Getenv("NO_SKIP") != "true" && strings.Contains(*destinationRelease.TagName, *sourceRelease.TagName) {
 			log.Info("already latest")
 			setActionOutput("skip", "true")
 			return nil
