@@ -24,10 +24,8 @@ github.com/sagernet/sing-box v1.6.8-0.20231129123339-5a56487cf544 h1:kHe9kQpKMEm
 github.com/sagernet/sing-box v1.6.8-0.20231129123339-5a56487cf544/go.mod h1:C5Gcyr9BsHs1Iq7eAY53hAlh/j+5fjJVsLA18z/7ZL4=
 github.com/sagernet/sing-dns v0.1.11 h1:PPrMCVVrAeR3f5X23I+cmvacXJ+kzuyAsBiWyUKhGSE=
 github.com/sagernet/sing-dns v0.1.11/go.mod h1:zJ/YjnYB61SYE+ubMcMqVdpaSvsyQ2iShQGO3vuLvvE=
-github.com/sethvargo/go-envconfig v0.8.0 h1:AcmdAewSFAc7pQ1Ghz+vhZkilUtxX559QlDuLLiSkdI=
-github.com/sethvargo/go-envconfig v0.8.0/go.mod h1:Iz1Gy1Sf3T64TQlJSvee81qDhf7YIlt8GMUX6yyNFs0=
-github.com/sethvargo/go-githubactions v1.1.0 h1:mg03w+b+/s5SMS298/2G6tHv8P0w0VhUFaqL1THIqzY=
-github.com/sethvargo/go-githubactions v1.1.0/go.mod h1:qIboSF7yq2Qnaw2WXDsqCReM0Lo1gU4QXUWmhBC3pxE=
+github.com/sethvargo/go-githubactions v1.2.0 h1:Gbr36trCAj6uq7Rx1DolY1NTIg0wnzw3/N5WHdKIjME=
+github.com/sethvargo/go-githubactions v1.2.0/go.mod h1:7/4WeHgYfSz9U5vwuToCK9KPnELVHAhGtRwLREOQV80=
 github.com/stretchr/objx v0.1.0/go.mod h1:HFkY916IF+rwdDfMAkV7OtwuqBVzrE8GR6GFx+wExME=
 github.com/stretchr/testify v1.7.0/go.mod h1:6Fq8oRcR53rry900zMqJjRRixrwX3KX962/h/Wwjteg=
 github.com/stretchr/testify v1.8.4 h1:CcVxjf3Q8PM0mHUKJCdn+eZZtm5yQwehR5yeSVQQcUk=
