@@ -27,8 +27,8 @@ github.com/sethvargo/go-githubactions v1.2.0/go.mod h1:7/4WeHgYfSz9U5vwuToCK9KPn
 github.com/stretchr/objx v0.1.0/go.mod h1:HFkY916IF+rwdDfMAkV7OtwuqBVzrE8GR6GFx+wExME=
 github.com/stretchr/testify v1.7.0/go.mod h1:6Fq8oRcR53rry900zMqJjRRixrwX3KX962/h/Wwjteg=
 github.com/stretchr/testify v1.9.0 h1:HtqpIVDClZ4nwg75+f6Lvsy/wHu+3BoSGCbBAcpTsTg=
-github.com/v2fly/v2ray-core/v5 v5.15.3 h1:yqBJcPKMJmjB1AjQT89gTog64GSNupvmZwn2cvIi87Q=
-github.com/v2fly/v2ray-core/v5 v5.15.3/go.mod h1:n2GHApi7EzlMf7703qsy2jEH/yTJQ2fBRnWQ/nblO2U=
+github.com/v2fly/v2ray-core/v5 v5.16.1 h1:hIuRzCJhmRYqCA76hGiNLkAHopgbNt91L871wlJ/yUU=
+github.com/v2fly/v2ray-core/v5 v5.16.1/go.mod h1:3pWIBTmNagMKpzd9/QicXq/7JZCQt716GsGZdBNmYkU=
 go4.org/netipx v0.0.0-20231129151722-fdeea329fbba h1:0b9z3AuHCjxk0x/opv64kcgZLBseWJUpBw5I82+2U4M=
 go4.org/netipx v0.0.0-20231129151722-fdeea329fbba/go.mod h1:PLyyIXexvUFg3Owu6p/WfdlivPbZJsZdgWZlrGope/Y=
 golang.org/x/crypto v0.22.0 h1:g1v0xeRhjcugydODzvb3mEM9SQ0HGp9s/nh3COQ/C30=
