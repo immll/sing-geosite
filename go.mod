@@ -4,7 +4,7 @@ go 1.20
 
 require (
 	github.com/google/go-github/v45 v45.2.0
-	github.com/sagernet/sing v0.3.8
+	github.com/sagernet/sing v0.4.0
 	github.com/sagernet/sing-box v1.8.14
 	github.com/sethvargo/go-githubactions v1.2.0
 	github.com/v2fly/v2ray-core/v5 v5.16.1
@@ -23,6 +23,6 @@ require (
 	golang.org/x/mod v0.17.0 // indirect
 	golang.org/x/net v0.24.0 // indirect
 	golang.org/x/sync v0.7.0 // indirect
-	golang.org/x/sys v0.19.0 // indirect
+	golang.org/x/sys v0.20.0 // indirect
 	golang.org/x/tools v0.20.0 // indirect
 )
