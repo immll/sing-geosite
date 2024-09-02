@@ -26,8 +26,8 @@ github.com/sagernet/sing-box v1.9.4 h1:Sf2JffjKvcG2a2+YWPOP0NiCOqpu2iPU12RkpZ0Ph
 github.com/sagernet/sing-box v1.9.4/go.mod h1:DGX0xLYqlQa36DX1PTWJBh6EnChI1hUyzwoJUObhlW4=
 github.com/sagernet/sing-dns v0.2.3 h1:YzeBUn2tR38F7HtvGEQ0kLRLmZWMEgi/+7wqa4Twb1k=
 github.com/sagernet/sing-dns v0.2.3/go.mod h1:BJpJv6XLnrUbSyIntOT6DG9FW0f4fETmPAHvNjOprLg=
-github.com/sethvargo/go-githubactions v1.2.0 h1:Gbr36trCAj6uq7Rx1DolY1NTIg0wnzw3/N5WHdKIjME=
-github.com/sethvargo/go-githubactions v1.2.0/go.mod h1:7/4WeHgYfSz9U5vwuToCK9KPnELVHAhGtRwLREOQV80=
+github.com/sethvargo/go-githubactions v1.3.0 h1:Kg633LIUV2IrJsqy2MfveiED/Ouo+H2P0itWS0eLh8A=
+github.com/sethvargo/go-githubactions v1.3.0/go.mod h1:7/4WeHgYfSz9U5vwuToCK9KPnELVHAhGtRwLREOQV80=
 github.com/stretchr/testify v1.9.0 h1:HtqpIVDClZ4nwg75+f6Lvsy/wHu+3BoSGCbBAcpTsTg=
 github.com/v2fly/v2ray-core/v5 v5.17.1 h1:IIMMtmRdaG5HTYNn6VX1xKULknJl7nhkSFnmoTb5TDQ=
 github.com/v2fly/v2ray-core/v5 v5.17.1/go.mod h1:IhDN0rhXJnNcs9jUuC5sILTGCT2L+4yr0+tfD8ZVuL8=
