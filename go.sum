@@ -20,8 +20,8 @@ github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZb
 github.com/quic-go/qpack v0.4.0 h1:Cr9BXA1sQS2SmDUWjSofMPNKmvF6IiIfDRmgU0w1ZCo=
 github.com/quic-go/qtls-go1-20 v0.4.1 h1:D33340mCNDAIKBqXuAvexTNMUByrYmFYVfKfDN5nfFs=
 github.com/sagernet/quic-go v0.46.0-beta.4 h1:k9f7VSKaM47AY6MPND0Qf1KRN7HwimPg9zdOFTXTiCk=
-github.com/sagernet/sing v0.4.2 h1:jzGNJdZVRI0xlAfFugsIQUPvyB9SuWvbJK7zQCXc4QM=
-github.com/sagernet/sing v0.4.2/go.mod h1:ieZHA/+Y9YZfXs2I3WtuwgyCZ6GPsIR7HdKb1SdEnls=
+github.com/sagernet/sing v0.4.3 h1:Ty/NAiNnVd6844k7ujlL5lkzydhcTH5Psc432jXA4Y8=
+github.com/sagernet/sing v0.4.3/go.mod h1:ieZHA/+Y9YZfXs2I3WtuwgyCZ6GPsIR7HdKb1SdEnls=
 github.com/sagernet/sing-box v1.9.4 h1:Sf2JffjKvcG2a2+YWPOP0NiCOqpu2iPU12RkpZ0PhaM=
 github.com/sagernet/sing-box v1.9.4/go.mod h1:DGX0xLYqlQa36DX1PTWJBh6EnChI1hUyzwoJUObhlW4=
 github.com/sagernet/sing-dns v0.2.3 h1:YzeBUn2tR38F7HtvGEQ0kLRLmZWMEgi/+7wqa4Twb1k=
