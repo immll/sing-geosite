@@ -1,6 +1,7 @@
 package main
 
 import (
+	"bufio"
 	"context"
 	"crypto/sha256"
 	"encoding/hex"
@@ -185,7 +186,9 @@ func generate(release *github.RepositoryRelease, output string, ruleSetOutput st
 	}
 	outputPath, _ := filepath.Abs(output)
 	os.Stderr.WriteString("write " + outputPath + "\n")
-	err = geosite.Write(outputFile, domainMap)
+	writer := bufio.NewWriter(outputFile)
+	defer writer.Flush()
+	err = geosite.Write(writer, domainMap)
 	if err != nil {
 		return err
 	}
@@ -214,7 +217,7 @@ func generate(release *github.RepositoryRelease, output string, ruleSetOutput st
 		if err != nil {
 			return err
 		}
-		err = srs.Write(outputRuleSet, plainRuleSet)
+		err = srs.Write(outputRuleSet, plainRuleSet, false)
 		if err != nil {
 			outputRuleSet.Close()
 			return err
