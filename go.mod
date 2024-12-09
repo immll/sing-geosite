@@ -7,12 +7,12 @@ require (
 	github.com/sagernet/sing v0.5.1
 	github.com/sagernet/sing-box v1.10.3
 	github.com/sethvargo/go-githubactions v1.3.0
-	github.com/v2fly/v2ray-core/v5 v5.21.0
+	github.com/v2fly/v2ray-core/v5 v5.22.0
 	google.golang.org/protobuf v1.35.2
 )
 
 require (
-	github.com/adrg/xdg v0.5.0 // indirect
+	github.com/adrg/xdg v0.5.1 // indirect
 	github.com/golang/protobuf v1.5.4 // indirect
 	github.com/google/go-querystring v1.1.0 // indirect
 	github.com/logrusorgru/aurora v2.0.3+incompatible // indirect
