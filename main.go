@@ -217,7 +217,7 @@ func generate(release *github.RepositoryRelease, output string, ruleSetOutput st
 		if err != nil {
 			return err
 		}
-		err = srs.Write(outputRuleSet, plainRuleSet, false)
+		err = srs.Write(outputRuleSet, plainRuleSet, C.RuleSetVersion2)
 		if err != nil {
 			outputRuleSet.Close()
 			return err
