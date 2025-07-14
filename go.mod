@@ -5,7 +5,7 @@ go 1.24
 require (
 	github.com/google/go-github/v45 v45.2.0
 	github.com/sagernet/sing v0.6.11
-	github.com/sagernet/sing-box v1.11.14
+	github.com/sagernet/sing-box v1.11.15
 	github.com/sethvargo/go-githubactions v1.3.1
 	github.com/v2fly/v2ray-core/v5 v5.34.0
 	google.golang.org/protobuf v1.36.6
@@ -17,7 +17,7 @@ require (
 	github.com/google/go-querystring v1.1.0 // indirect
 	github.com/logrusorgru/aurora v2.0.3+incompatible // indirect
 	github.com/miekg/dns v1.1.66 // indirect
-	github.com/sagernet/sing-dns v0.4.5 // indirect
+	github.com/sagernet/sing-dns v0.4.6 // indirect
 	go4.org/netipx v0.0.0-20231129151722-fdeea329fbba // indirect
 	golang.org/x/crypto v0.39.0 // indirect
 	golang.org/x/mod v0.25.0 // indirect
