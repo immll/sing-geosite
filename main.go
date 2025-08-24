@@ -255,7 +255,7 @@ func release(source string, destination string, output string, ruleSetOutput str
 }
 
 func main() {
-	err := release("Loyalsoldier/v2ray-rules-dat", "immll/sing-geosite", "geosite.db", "rule-set")
+	err := release("elysias123/geosite", "immll/sing-geosite", "geosite.db", "rule-set")
 	if err != nil {
 		log.Fatal(err)
 	}
