@@ -4,7 +4,7 @@ go 1.24
 
 require (
 	github.com/google/go-github/v45 v45.2.0
-	github.com/sagernet/sing v0.7.6-0.20250825114712-2aeec120ce28
+	github.com/sagernet/sing v0.7.7
 	github.com/sagernet/sing-box v1.12.4
 	github.com/sethvargo/go-githubactions v1.3.1
 	github.com/v2fly/v2ray-core/v5 v5.38.0
