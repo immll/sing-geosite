@@ -18,6 +18,8 @@ jobs:
           go-version: '1.25.5'
       - name: Build geosite
         id: build
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           go run -v .
       - name: Release rule sets
