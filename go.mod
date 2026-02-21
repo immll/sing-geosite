@@ -6,7 +6,7 @@ require (
 	github.com/google/go-github/v45 v45.2.0
 	github.com/sagernet/sing v0.7.18
 	github.com/sagernet/sing-box v1.12.22
-	github.com/sethvargo/go-githubactions v1.3.1
+	github.com/sethvargo/go-githubactions v1.3.2
 	github.com/v2fly/v2ray-core/v5 v5.46.0
 	golang.org/x/oauth2 v0.35.0
 	google.golang.org/protobuf v1.36.11
