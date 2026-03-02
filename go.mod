@@ -4,8 +4,8 @@ go 1.25.5
 
 require (
 	github.com/google/go-github/v45 v45.2.0
-	github.com/sagernet/sing v0.7.18
-	github.com/sagernet/sing-box v1.12.22
+	github.com/sagernet/sing v0.8.0-beta.16.0.20260227013657-e419e9875a07
+	github.com/sagernet/sing-box v1.13.0
 	github.com/sethvargo/go-githubactions v1.3.2
 	github.com/v2fly/v2ray-core/v5 v5.46.0
 	golang.org/x/oauth2 v0.35.0
